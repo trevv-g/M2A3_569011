@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Sitio - Blog Personal</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      max-width: 900px;
+      margin: 2rem auto;
+      line-height: 1.5;
+    }
+    header, nav, main, aside, article, footer, .box {
+      padding: 12px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+    }
+    nav a {
+      margin-right: 8px;
+    }
+    .label {
+      font-weight: bold;
+    }
+    blockquote {
+      font-style: italic;
+      margin: 12px 0;
+      padding-left: 16px;
+      border-left: 3px solid #ddd;
+    }
+    .date {
+      color: #666;
+    }
+    address {
+      font-style: normal;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Encabezado general con identidad del sitio -->
+  <header>
+    <h1>Mi Blog Personal</h1>
+    <nav aria-label="Navegación principal">
+      <a href="#">Inicio</a>
+      <a href="#">Artículos</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Contenido principal único de la página -->
+  <main>
+    <!-- Entrada independiente del blog -->
+    <article>
+      <h2>Novedades de HTML5</h2>
+      <p class="date">Publicado el <time datetime="2024-12-20">20/12/2024</time></p>
+      
+      <p>HTML5 trae nuevas etiquetas <em>muy interesantes</em> para mejorar la web.</p>
+      
+      <blockquote cite="https://www.goodreads.com/author/quotes/3389.Stephen_King">
+        <p>"a uniquely portable magic" — Stephen King</p>
+      </blockquote>
+      
+      <p>La <span class="label">URL</span>: <a href="https://www.example.com">https://www.example.com</a></p>
+      <p>Visita a la <abbr title="World Health Organization">WHO</abbr> para más información.</p>
+    </article>
+  </main>
+
+  <!-- Barra lateral con contenido complementario -->
+  <aside>
+    <section class="box">
+      <h3 class="label">Acerca de</h3>
+      <p>Desarrollador web y escritor ocasional.</p>
+    </section>
+    
+    <section class="box">
+      <h3 class="label">Contacto</h3>
+      <address>
+        <span class="label">Email:</span>
+        <a href="mailto:contacto@ejemplo.com">contacto@ejemplo.com</a>
+      </address>
+    </section>
+  </aside>
+
+  <!-- Pie de página con derechos y créditos -->
+  <footer>
+    <p>&copy; 2025 Mi Sitio</p>
+    <p>Hecho con café y paciencia.</p>
+  </footer>
+
+</body>
+</html>
